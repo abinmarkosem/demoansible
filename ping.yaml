@@ -3,7 +3,7 @@
   hosts: all
   
   tasks:
-   -name: ping
-    ping:
+   - name: test ping
+     ping:
     
     
