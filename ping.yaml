@@ -5,7 +5,10 @@
   tasks:
    - name: test ping
      ping:
-      crash: data
-      
+     register: ping_result
+     
+   - name:
+     debug:
+      var: ping_result
     
     
